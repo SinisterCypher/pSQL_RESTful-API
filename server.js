@@ -17,7 +17,8 @@ import {
     createUser,
     updateUser,
     deleteUser
-} from './queries.js';
+} from './Database/queries.js';
+
 // APP Configurations 
 const app = express()
 const PORT = process.env.PORT || 4000
